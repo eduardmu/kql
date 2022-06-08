@@ -1,0 +1,2 @@
+AzureActivity| where (OperationNameValue == "Microsoft.Compute/virtualMachines/write") and (ActivitySubstatusValue == "Created")
+|project TimeGenerated, Resource , Caller
